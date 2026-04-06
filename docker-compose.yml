@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  cpu-spike:
+    build: .
+    container_name: demo-cpu-spike
+    environment:
+      - DEMO_CLASS=com.demo.profiling.cpu.CpuSpike
+    # Restrict CPU slightly to not kill the host instantly if there are many cores
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+
+  memory-leak:
+    build: .
+    container_name: demo-memory-leak
+    environment:
+      - DEMO_CLASS=com.demo.profiling.memory.MemoryLeak
+      # Give it a small heap so it crashes relatively quickly
+      - JAVA_OPTS=-Xmx64m
+
+  high-allocation:
+    build: .
+    container_name: demo-high-allocation
+    environment:
+      - DEMO_CLASS=com.demo.profiling.memory.HighAllocationRate
+
+  deadlock:
+    build: .
+    container_name: demo-deadlock
+    environment:
+      - DEMO_CLASS=com.demo.profiling.concurrency.DeadlockDemo
+
+  lock-contention:
+    build: .
+    container_name: demo-lock-contention
+    environment:
+      - DEMO_CLASS=com.demo.profiling.concurrency.LockContention

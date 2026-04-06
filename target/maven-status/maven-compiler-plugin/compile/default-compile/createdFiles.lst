@@ -1,0 +1,5 @@
+com/demo/profiling/concurrency/LockContention.class
+com/demo/profiling/memory/MemoryLeak.class
+com/demo/profiling/concurrency/DeadlockDemo.class
+com/demo/profiling/memory/HighAllocationRate.class
+com/demo/profiling/cpu/CpuSpike.class
