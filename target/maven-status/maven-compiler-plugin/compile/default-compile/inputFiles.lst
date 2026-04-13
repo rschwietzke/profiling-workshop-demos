@@ -1,5 +1,8 @@
-/home/rschwietzke/projects/GIT/profiling-demos/src/main/java/com/demo/profiling/cpu/CpuSpike.java
-/home/rschwietzke/projects/GIT/profiling-demos/src/main/java/com/demo/profiling/memory/HighAllocationRate.java
-/home/rschwietzke/projects/GIT/profiling-demos/src/main/java/com/demo/profiling/memory/MemoryLeak.java
-/home/rschwietzke/projects/GIT/profiling-demos/src/main/java/com/demo/profiling/concurrency/DeadlockDemo.java
-/home/rschwietzke/projects/GIT/profiling-demos/src/main/java/com/demo/profiling/concurrency/LockContention.java
+/home/rschwietzke/projects/GIT/profiling-workshop-demos/src/main/java/com/demo/profiling/cpu/CpuSpike.java
+/home/rschwietzke/projects/GIT/profiling-workshop-demos/src/main/java/com/demo/profiling/memory/HighAllocationRate.java
+/home/rschwietzke/projects/GIT/profiling-workshop-demos/src/main/java/com/demo/profiling/memory/MemoryLeak.java
+/home/rschwietzke/projects/GIT/profiling-workshop-demos/src/main/java/com/demo/profiling/concurrency/LockContention.java
+/home/rschwietzke/projects/GIT/profiling-workshop-demos/src/main/java/com/demo/profiling/custom/CacheMissDemo.java
+/home/rschwietzke/projects/GIT/profiling-workshop-demos/src/main/java/com/demo/profiling/concurrency/DeadlockDemo.java
+/home/rschwietzke/projects/GIT/profiling-workshop-demos/src/main/java/com/demo/profiling/memory/MemoryAllocator.java
+/home/rschwietzke/projects/GIT/profiling-workshop-demos/src/main/java/com/demo/profiling/memory/AllocationBenchmark.java
