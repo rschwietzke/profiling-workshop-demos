@@ -22,7 +22,7 @@ public class HighAllocationRate {
     public static void main(String[] args) {
         System.out.println("Starting High Allocation Rate demo. Watch the GC activity!");
         
-        int numThreads = 4;
+        int numThreads = 1;
         for (int i = 0; i < numThreads; i++) {
             new Thread(() -> {
                 while (true) {
